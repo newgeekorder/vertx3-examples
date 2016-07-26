@@ -1,0 +1,86 @@
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <link href="/assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/datatables.net-bs/css/dataTables.bootstrap.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        .container {
+            padding-top: 70px;
+            /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+        }
+    </style>
+    <script type="text/javascript" src="/assets/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="/assets/datatables.net/js/jquery.dataTables.js"></
+    </script>
+    <script type="application/javascript">
+        $(document).ready(function () {
+            $("#submit").click(function () {
+                $('#example').DataTable({
+                    "ajax": '/assets/data/data.json'
+                });
+            })
+        });
+    </script>
+
+    <link href="/assets/datatables.net-bs/css/dataTables.bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <div class="row-fluid">
+        <div class="pull-right">
+            <img src="/assets/img/logo.png" height="100px"/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <form action="/form" method="post">
+                <div class="form-group">
+                    <div class="row col-md-8">
+                        <div class="col-md-4 text-left">
+                            <label for="email">Object Id:</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 text-left">
+                            <input type="search" class="form-control" id="search">
+                        </div>
+                        <div class="col-md-2 text-center">
+                            <div  id="submit" class="btn btn-primary">Submit</div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="row" style="height: 20px"></div>
+        <div class="col-lg-12">
+            <div class="row">
+
+                <table id="example" class="table table-striped table-bordered" cellspacing="2" width="100%">
+                    <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>Office</th>
+                        <th>Extn.</th>
+                        <th>Start date</th>
+                        <th>Salary</th>
+                    </tr>
+                    </thead>
+                    <tfoot>
+                    <tr>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>Office</th>
+                        <th>Extn.</th>
+                        <th>Start date</th>
+                        <th>Salary</th>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

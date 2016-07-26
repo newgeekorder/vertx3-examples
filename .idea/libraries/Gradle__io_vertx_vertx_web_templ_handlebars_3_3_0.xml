@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.vertx:vertx-web-templ-handlebars:3.3.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-web-templ-handlebars/3.3.0/9ef670d253c6d05c2644f2a5be2948beb0b1a8c2/vertx-web-templ-handlebars-3.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/vertx-web-templ-handlebars/3.3.0/f13fb2e992c3544bc963b76f6e3cd8949be0e745/vertx-web-templ-handlebars-3.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

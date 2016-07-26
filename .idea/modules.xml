@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vertx-elastic.iml" filepath="$PROJECT_DIR$/.idea/modules/vertx-elastic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vertx-elastic_main.iml" filepath="$PROJECT_DIR$/.idea/modules/vertx-elastic_main.iml" group="vertx-elastic" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vertx-elastic_test.iml" filepath="$PROJECT_DIR$/.idea/modules/vertx-elastic_test.iml" group="vertx-elastic" />
+    </modules>
+  </component>
+</project>
